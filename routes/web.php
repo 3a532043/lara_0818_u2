@@ -15,3 +15,4 @@ Route::get('/', function () {
     return view('layouts.master');
 });
 Route::get('/home','HomeController@index');
+    Route::get('hello/{name?}',['as'=>'hello.index','uses'=>'HelloController@index']);
