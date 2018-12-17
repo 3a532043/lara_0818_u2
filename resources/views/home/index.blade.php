@@ -2,5 +2,5 @@
 @section('title','Home')
 @section('content')
     <h1>Home</h1>
-    <p>Thisismybodycontent.</p>
+    <p>This is my body content.</p>
 @endsection
